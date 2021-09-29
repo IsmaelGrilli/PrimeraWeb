@@ -1,5 +1,5 @@
 title = "Asesino de Reyes"
-baseURL = "https://example.com"
+baseURL = "https://example.com/PrimeraWeb"
 languageCode = "es-es"
 theme = "ananke"
 themesDir = "./themes"
