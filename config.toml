@@ -1,0 +1,76 @@
+title = "Asesino de Reyes"
+baseURL = "https://example.com"
+languageCode = "es-es"
+theme = "ananke"
+themesDir = "./themes"
+resourceDir = "./static"
+
+DefaultContentLanguage = "es-es"
+SectionPagesMenu = "main"
+Paginate = 3 
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    identifier = "index"
+    name = "Índice"
+    title = "Índice"
+    url = "/index"
+    weight = 1
+  [[menu.main]]
+    identifier = "info"
+    name = "Información"
+    title = "Información"
+    url = "/info/"
+    weight = 2
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts"
+    weight = 3
+  [[menu.main]]
+    identifier = "ejemplo"
+    name = "Ejemplo"
+    title = "Ejemplo"
+    url = "/posts/ejemplo"
+    weight = 4
+  [[menu.main]]
+    identifier = "contacto"
+    name = "Contacto"
+    title = "Contacto"
+    url = "/posts/contacto"
+    weight = 5
+  [[menu.main]]
+    identifier = "noticias"
+    name = "Noticias"
+    title = "Noticias"
+    url = "/posts/noticias"
+    weight = 6
+  
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = "https://es-es.facebook.com/"
+  twitter = "https://twitter.com/GoHugoIO"
+  instagram = ""
+  youtube = "https://www.youtube.com/"
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/img/header-books.jpg"
+  recent_posts_number = 2
