@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asesino de Reyes</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Asesino de Reyes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Página Principal</title>
+      <link>https://example.com/index/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
