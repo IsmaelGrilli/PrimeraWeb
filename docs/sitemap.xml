@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/PrimeraWeb/index/</loc>
+    <loc>https://ismaelgrilli.github.io/PrimeraWeb/index/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://example.com/PrimeraWeb/</loc>
+    <loc>https://ismaelgrilli.github.io/PrimeraWeb/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://example.com/PrimeraWeb/categories/</loc>
+    <loc>https://ismaelgrilli.github.io/PrimeraWeb/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://example.com/PrimeraWeb/tags/</loc>
+    <loc>https://ismaelgrilli.github.io/PrimeraWeb/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

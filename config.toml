@@ -1,5 +1,5 @@
 title = "Asesino de Reyes"
-baseURL = " https://ismaelgrilli.github.io/PrimeraWeb/"
+baseURL = "https://ismaelgrilli.github.io/PrimeraWeb/"
 languageCode = "es-es"
 theme = "ananke"
 themesDir = "./themes"
@@ -31,24 +31,26 @@ enableRobotsTXT = true
     url = "/posts"
     weight = 3
   [[menu.main]]
-    identifier = "ejemplo"
-    name = "Ejemplo"
-    title = "Ejemplo"
-    url = "/posts/ejemplo"
-    weight = 4
-  [[menu.main]]
     identifier = "contacto"
     name = "Contacto"
     title = "Contacto"
     url = "/posts/contacto"
-    weight = 5
+    weight = 4
   [[menu.main]]
     identifier = "noticias"
     name = "Noticias"
     title = "Noticias"
     url = "/posts/noticias"
+    weight = 5
+    [[menu.main]]
+    identifier = "buscar"
+    name = "Buscar"
+    title = "Buscar"
+    url = "/posts/buscar"
     weight = 6
   
+[outputs]
+  home = ["HTML", "JSON"]
 
 [sitemap]
   changefreq = "monthly"
@@ -74,3 +76,4 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/img/header-books.jpg"
   recent_posts_number = 2
+
