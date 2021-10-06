@@ -1,15 +1,21 @@
 title = "Asesino de Reyes"
-baseURL = "https://ismaelgrilli.github.io/PrimeraWeb/"
-languageCode = "es-es"
+baseURL = "https://example.com/"
+languageCode = "es"
 theme = "ananke"
 themesDir = "./themes"
 resourceDir = "./static"
 
-DefaultContentLanguage = "es-es"
+DefaultContentLanguage = "es"
 SectionPagesMenu = "main"
 Paginate = 3 
 googleAnalytics = ""
 enableRobotsTXT = true
+
+[languages]
+  [languages.es]
+    title = "Asesino de Reyes"
+    weight = 1
+    contentDir = "content/es"
 
 [menu]
   [[menu.main]]
@@ -22,32 +28,26 @@ enableRobotsTXT = true
     identifier = "info"
     name = "Información"
     title = "Información"
-    url = "/info/"
+    url = "/info"
     weight = 2
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    title = "Posts"
-    url = "/posts"
-    weight = 3
   [[menu.main]]
     identifier = "contacto"
     name = "Contacto"
     title = "Contacto"
     url = "/posts/contacto"
-    weight = 4
+    weight = 3
   [[menu.main]]
     identifier = "noticias"
     name = "Noticias"
     title = "Noticias"
     url = "/posts/noticias"
-    weight = 5
+    weight = 4
     [[menu.main]]
     identifier = "buscar"
     name = "Buscar"
     title = "Buscar"
     url = "/posts/buscar"
-    weight = 6
+    weight = 5
   
 [outputs]
   home = ["HTML", "JSON"]
